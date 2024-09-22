@@ -1,0 +1,25 @@
+{
+  "name": "zip-helper",
+  "version": "1.0.0",
+  "description": "A tool for zipping folders while respecting .gitignore rules, perfect for project packaging and backups.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "zip",
+    "archive",
+    "gitignore",
+    "nodejs",
+    "helper",
+    "compression"
+  ],
+  "author": "Dante4rt",
+  "license": "MIT",
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "colors": "^1.4.0",
+    "ignore": "^6.0.2"
+  }
+}
